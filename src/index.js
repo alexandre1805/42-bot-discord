@@ -14,7 +14,7 @@ client.on("ready", () => {
     const guild = client.guilds.cache.get(process.env.TIGER_SERV);
     const channel = guild.channels.cache.get(process.env.CHANNEL);
     channel.send(
-      "<@" + process.env.ID_CLEMENT_B + ">, <@" + process.env.ID_AURORE + "> and <@" + process.env.ID_CLEMENT_I + ">, it time to say 42..."
+      "<@" + process.env.ID_CLEMENT_B + ">, <@" + process.env.ID_AURORE + "> and <@" + process.env.ID_CLEMENT_I + ">, it is my job to make sure you do yours..."
     );
   });
 
