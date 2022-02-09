@@ -9,7 +9,7 @@ client.login(process.env.BOT_TOKEN);
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
-  let scheduledMessage = new cron.CronJob("00 42 * * * *", () => {
+  let scheduledMessage = new cron.CronJob("05 42 * * * *", () => {
     
     const guild = client.guilds.cache.get(process.env.TIGER_SERV);
     const channel = guild.channels.cache.get(process.env.CHANNEL);
